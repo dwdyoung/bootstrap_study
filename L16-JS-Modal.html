@@ -22,13 +22,24 @@
 					</button>
 					<h4 class="modal-title" id="myModallabel">Modal Title</h4>
 				</div>
+				
+					<form role="form" class="form-default">
 				<div class="modal-body">
-					Content
+						<div class="form-group">
+						<!-- class="sr-only" 隐藏label-->
+							<label>用户名：</label>
+							<input type="text" class="form-control" placeholder="输入用户名" />
+						</div>
+						<div class="form-group">
+							<label>密码：</label>
+							<input type="password" class="form-control" placeholder="输入密码" />
+						</div>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					<button type="button" class="btn btn-default" >Save</button>
+					<input type="submit" class="form-control" placeholder="登录" value="登录" />
 				</div>
+				
+					</form>
 			</div>
 		</div>
 	</div>
